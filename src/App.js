@@ -24,7 +24,7 @@ function App() {
       <Switch>
         {/* Em cada Route tem um componente/pagina, no atributo path colocamos o nome do caminho da route */}
 
-        <Container>
+        <Container customClass= "min-height">
 
           <Route exact path='/drinks'>
         

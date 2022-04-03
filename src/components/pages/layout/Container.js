@@ -4,14 +4,18 @@ function Container(props) {
 
   return (
 
-    <div>
+    <div className={`${styles.container} ${styles[props.customClass]}`}>
 
       {props.children}
 
     </div>
-    
+
   )
 }
 
 
 export default Container;
+
+
+
+// ver melhor o conceito de customClass depois.

@@ -1,0 +1,33 @@
+
+.container {
+
+  width: 1200px;
+  /* uma largura fixa pro conteúdo central */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  /* quando os elementos filhos ultrapassarem a width eles vão apa linha de baixo */
+
+}
+
+.min-height {
+
+  min-height: 75%;
+
+}
+
+
+.start {
+
+  justify-content: flex-start;
+
+}
+
+
+.column {
+
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
