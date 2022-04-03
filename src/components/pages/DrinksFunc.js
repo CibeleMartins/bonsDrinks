@@ -2,7 +2,7 @@ import React from "react";
 
 function DrinksFunc() {
 
-  return <h1>Contato</h1>
+  return <h1>DrinksFunc</h1>
 
 }
 

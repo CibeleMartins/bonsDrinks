@@ -2,7 +2,7 @@ import React from "react";
 
 function Drinks() {
 
-  return <h1>Home</h1>
+  return <h1>Drinks</h1>
 
 }
 

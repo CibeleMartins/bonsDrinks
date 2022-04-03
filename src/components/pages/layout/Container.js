@@ -1,4 +1,4 @@
-import styles from "./Container.module.css";
+import styles from './Container.module.css'
 
 function Container(props) {
 
@@ -9,6 +9,7 @@ function Container(props) {
       {props.children}
 
     </div>
+    
   )
 }
 
