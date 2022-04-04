@@ -1,0 +1,24 @@
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.icons {
+  width: auto;
+  display: flex;
+  font-size: 1.3em;
+  padding: 1em;
+  flex-direction: column;
+  
+}
+
+.icons div:hover {
+  cursor: pointer;
+  color: yellow;
+}

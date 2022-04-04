@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
 
-    <nav class={styles.navbar}>
+    <nav className={styles.navbar}>
       <Container>
         <Link to='/'>
           <img src={logo} alt='bons-drinks' width={100}></img>
