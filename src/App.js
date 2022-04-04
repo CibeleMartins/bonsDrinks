@@ -10,16 +10,14 @@ import Contato from './components/pages/Contato';
 
 import Container from "./components/pages/layout/Container.js";
 
+import Navbar from './components/pages/layout/Navbar';
+import Footer from './components/pages/layout/Footer';
+
 function App() {
   return (
     <BrowserRouter>
-      <div>
-      <Link to='/drinks'>Drinks</Link>
-      <Link to='/drinksFunc'>DrinksFunc</Link>
-      <Link to='/sobre'>Sobre nós</Link>
-      <Link to='/NossoTime'>Nosso Time</Link>
-      <Link to='/contato'>Contato</Link>
-      </div>
+
+     <Navbar/>
 
       <Switch>
         {/* Em cada Route tem um componente/pagina, no atributo path colocamos o nome do caminho da route */}
@@ -52,7 +50,7 @@ function App() {
 
       </Switch>
 
-      <p>Footer</p>
+      <Footer/>
     </BrowserRouter>
   );
 }
