@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CibeleMartins/bonsDrinks.git/static/css/main.cf712d94.css",
+    "main.js": "/CibeleMartins/bonsDrinks.git/static/js/main.07871399.js",
+    "static/media/logo.png": "/CibeleMartins/bonsDrinks.git/static/media/logo.6adf60882604fb9106d1.png",
+    "index.html": "/CibeleMartins/bonsDrinks.git/index.html",
+    "main.cf712d94.css.map": "/CibeleMartins/bonsDrinks.git/static/css/main.cf712d94.css.map",
+    "main.07871399.js.map": "/CibeleMartins/bonsDrinks.git/static/js/main.07871399.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf712d94.css",
+    "static/js/main.07871399.js"
+  ]
+}
