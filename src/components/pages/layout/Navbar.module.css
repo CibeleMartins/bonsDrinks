@@ -3,3 +3,8 @@
   background-color: black;
   padding: 1em;
 }
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
