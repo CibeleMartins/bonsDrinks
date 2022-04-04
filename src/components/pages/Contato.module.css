@@ -1,0 +1,15 @@
+
+.container_forms {
+
+  width: 450px;
+  margin: 0 auto;
+  /* essa margem para centralizar na tela */
+  padding: 3em;
+}
+
+.container_forms h1 {
+
+  margin-bottom: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+
+}
