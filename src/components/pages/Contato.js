@@ -11,7 +11,7 @@ function Contato () {
 
       <h1>Cadastre-se e fale com a gente!</h1>
       
-      <ProjectForm></ProjectForm>
+      <ProjectForm btnText="Cadastrar e enviar"/>
 
 
     </div>

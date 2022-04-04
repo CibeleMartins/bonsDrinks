@@ -1,8 +1,9 @@
 import styles from './ProjectForm.module.css';
 import Input from '../form/Input';
+import SubmitButton from '../form/SubmitButton';
 
-
-function Form() {
+// recebe o texto do elemento pai do button
+function ProjectForm({btnText}) {
 
   return (
     <form className={styles.form}>
@@ -13,13 +14,12 @@ function Form() {
       <Input type="password" name="name" placeholder="Senha"/>
       <Input type="password" name="name" placeholder="Confirme sua senha"/>
       <Input type="text" name="name" placeholder="Insira aqui a mensagem"/>
-      <div>
-        <input type="submit" value="Cadastrar e enviar"></input>
-      </div>
+      <SubmitButton text={btnText}/>
+      {/* e insere aqui */}
 
     </form>
   )
 }
 
 
-export default Form;
+export default ProjectForm;
