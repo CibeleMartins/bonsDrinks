@@ -42,7 +42,7 @@ npm start
 # Clone este repositório.
 $ git clone https://github.com/CibeleMartins/bonsDrinks.git
 
-# Vá para a pasta bons-drinks-resilia
+# Vá para a pasta bons-drinks
 $ cd bons-drinks
 ```
 
