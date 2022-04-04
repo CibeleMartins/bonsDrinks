@@ -1,5 +1,6 @@
 
 .footer {
+  
   background-color: black;
   color: #fff;
   padding: 3em;
@@ -10,15 +11,32 @@
 }
 
 .icons {
+
   width: auto;
   display: flex;
   font-size: 1.3em;
   padding: 1em;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   
 }
 
+.icons div {
+
+  margin: 4px;
+
+}
+
 .icons div:hover {
+
   cursor: pointer;
   color: yellow;
+
+}
+
+.span {
+
+  color: aqua;
+  font-weight: bold;
+
 }

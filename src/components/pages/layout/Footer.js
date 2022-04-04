@@ -19,7 +19,7 @@ function Footer() {
         </div>
       </main>
 
-      <p><span>Bons Drinks</span> &copy; 2022</p>
+      <p><span className={styles.span}>Bons Drinks</span> &copy; 2022</p>
     </footer>
   )
 }
