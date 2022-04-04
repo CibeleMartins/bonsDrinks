@@ -1,8 +1,19 @@
 import React from "react";
 
+import styles from './Contato.module.css';
+
 function Contato () {
 
-  return <h1>Contato</h1>
+  return (
+
+    <div>
+      
+      <h1>Cadastre-se e fale com a gente!</h1>
+
+
+    </div>
+
+  )
 
 }
 

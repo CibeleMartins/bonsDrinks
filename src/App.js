@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route} from "react-router-dom";
 import Drinks from './components/pages/Drinks';
 import DrinksFunc from './components/pages/DrinksFunc';
 import Sobre from './components/pages/Sobre';
