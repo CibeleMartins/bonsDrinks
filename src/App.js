@@ -20,7 +20,7 @@ function App() {
 
     <BrowserRouter basename={process.env.PUBLIC_URL}>
 
-     <Navbar/>
+      <Navbar/>
 
       <Switch>
         {/* Em cada Route tem um componente/pagina, no atributo path colocamos o nome do caminho da route */}

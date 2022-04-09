@@ -19,6 +19,7 @@ function Navbar() {
         <Link to='/sobre'>Sobre nós</Link>
         <Link to='/NossoTime'>Nosso Time</Link>
         <Link to='/contato'>Contato</Link>
+        
       </Container>
     </nav>
 
