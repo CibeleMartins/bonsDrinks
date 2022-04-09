@@ -1,6 +1,6 @@
 import styles from './Input.module.css';
 
-function Input({type, text, password, name, placeholder, onChange, value}) {
+function Input({type, placeholder, onChange, value}) {
 
   return (
 

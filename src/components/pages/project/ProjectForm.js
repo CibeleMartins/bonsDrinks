@@ -10,14 +10,13 @@ function ProjectForm({btnText}) {
     function cadastraUsuario(event) {
 
       event.preventDefault()
-      console.log(name)
-      console.log('Cadastrou o usuário!')
+      console.log(`O usuário ${name} se cadastrou com o sobrenome ${lastName}.`)
 
     }
 
     const [name, setName] = useState("")
 
-    const [lastName, setLastName]
+    const [lastName, setLastName] = useState("")
 
 
 
@@ -27,7 +26,7 @@ function ProjectForm({btnText}) {
 
         <Input type="text" value={name} placeholder="Nome" onChange={(event) => setName(event.target.value)}/>
       
-        <Input type="text" name="sobrenome" placeholder="Sobrenome"/>
+        <Input type="text" value={lastName} placeholder="Sobrenome" onChange={(event) => setLastName(event.target.value)}/>
         <Input type="text" name="email" placeholder="E-mail"/>
         <Input type="password" name="senha" placeholder="Senha"/>
         <Input type="password" name="csenha" placeholder="Confirme sua senha"/>
